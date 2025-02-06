@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
+    justify-content: center;
+    align-items: center;
+    border: black;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    border: 1px solid #ccc;
+    flex: 1 1 0;
+}
+
+.setGrid {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
